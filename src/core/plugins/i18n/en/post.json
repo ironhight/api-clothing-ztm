@@ -1,0 +1,13 @@
+{
+    "image": "Image",
+    "imageMb": "Image mobile",
+    "title": "Title",
+    "slug": "Slug",
+    "shortDescription": "Short Description",
+    "content": "Content",
+    "active": "Active",
+    "sortOrder": "Sort Order",
+    "metaImage": "Meta Image",
+    "metaDescription": "Meta Description",
+    "metaKeyword": "Meta Keyword"
+}

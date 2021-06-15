@@ -1,0 +1,32 @@
+<h3>Thank you for your order!</h3>
+<p>Customer: {{ customerName }}. Phone: {{ customerPhone }}</p>
+<p>ShippingAddress: {{ line1 }} - {{ city }} - {{ country_code }}</p>
+<table style="overflow-x: auto;border-spacing: 0; border-collapse: collapse; width: 100%;margin-bottom: 20px; background-color: transparent;">
+    <thead>
+    <tr>
+        <th style="border: 1px solid #ddd;  padding: 8px; border-bottom-width: 2px;font-size: 14px;vertical-align: middle;">Package</th>
+        <th style="border: 1px solid #ddd;  padding: 8px; border-bottom-width: 2px;font-size: 14px;vertical-align: middle;">Timeline</th>
+        <th style="border: 1px solid #ddd;  padding: 8px; border-bottom-width: 2px;font-size: 14px;vertical-align: middle;">Payment</th>
+        <th style="border: 1px solid #ddd;  padding: 8px; border-bottom-width: 2px;font-size: 14px;vertical-align: middle;">Gateway</th>
+        <th style="border: 1px solid #ddd;  padding: 8px; border-bottom-width: 2px;font-size: 14px;vertical-align: middle;">Transaction ID</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 8px; font-size: 14px;vertical-align: middle;">{{ packageName }} - {{ timeline }}</td>
+            <td style="border: 1px solid #ddd; padding: 8px; font-size: 14px;vertical-align: middle;">{{ timeline }} years</td>
+            <td style="border: 1px solid #ddd; padding: 8px; font-size: 14px;vertical-align: middle; text-align: right;">
+                {{ price }}
+                <p style="margin:0;">x{{ quantity }}</p>
+            <td style="border: 1px solid #ddd; padding: 8px; font-size: 14px;vertical-align: middle;">{{ gateway }}</td>
+            <td style="border: 1px solid #ddd; padding: 8px; font-size: 14px;vertical-align: middle;">{{ transactionID }}</td>
+        </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td colspan="2" align="right" style="border: 1px solid #ddd;">Total</td>
+        <td align="right" style="border: 1px solid #ddd;"><strong style="color:#f00; font-weight: bold;">{{ total }} VND</strong></td>
+    </tr>
+    </tr>
+    </tfoot>
+</table>

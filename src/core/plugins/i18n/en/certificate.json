@@ -1,0 +1,11 @@
+{
+    "logo": "Logo",
+    "title": "Title",
+    "name": "Name",
+    "description": "Description",
+    "shortName": "Short Name",
+    "shortDescription": "Short Description",
+    "active": "Active",
+    "displayAtProduct": "Display at Product",
+    "sortOrder": "Sort Order"
+}

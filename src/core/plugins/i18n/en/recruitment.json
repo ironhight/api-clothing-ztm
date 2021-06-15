@@ -1,0 +1,23 @@
+{
+    "job": "Job",
+    "zoneProvince": "Province",
+    "status": "Status",
+    "fileCv": "File CV",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "jobContract": "Job Contract",
+    "jobDepartment": "Job Department",
+    "active": "Active",
+    "image": "Image",
+    "imageMb": "image mobile",
+    "title": "Title",
+    "slug": "Slug",
+    "content": "Content",
+    "location": "Location",
+    "sortOrder": "Sort Order",
+    "metaImage": "Meta Image",
+    "metaDescription": "Meta Description",
+    "metaKeyword": "Meta Keyword"
+}

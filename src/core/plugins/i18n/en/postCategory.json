@@ -1,0 +1,14 @@
+{
+
+    "name": "Name",
+    "title": "Title",
+    "slug": "Slug",
+    "shortDescription": "Short Description",
+    "content": "Content",
+    "active": "Active",
+    "sortOrder": "Sort Order",
+    "metaData": "Meta Data",
+    "metaImage": "Meta Image",
+    "metaDescription": "Meta Description",
+    "metaKeyword": "Meta Keyword"
+}
