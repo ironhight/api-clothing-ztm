@@ -8,7 +8,8 @@ export class SchedulerConsumerService {
 
     @Process('sendMsg')
     async sendMsg(job: Job<unknown>): Promise<any> {
-        console.log("🚀 ~ file: scheduler.consumer.service.ts ~ line 31 ~ SchedulerConsumerService ~ sendMsg ~ job", job)
+    console.log("🚀 ~ file: scheduler.consumer.service.ts ~ line 11 ~ SchedulerConsumerService ~ sendMsg ~ job", job.data)
+       
 
         job.progress(1);
     }

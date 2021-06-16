@@ -68,7 +68,7 @@ export class CustomerService {
         customer = await this.customerRepo.findOne(`${customer.id}`)
         await saveThumbOrPhotos(customer);
        
-        this.emailService.sendMail(`${customer.email}`, '[FOYU] Create new account successfully', './createNewAccountCustomer', { name: customer.name }, false);
+        this.emailService.sendMail(`${customer.email}`, '[CLOTHING-ZTM] Create new account successfully', './createNewAccountCustomer', { name: customer.name }, false);
         return customer;
     }
 

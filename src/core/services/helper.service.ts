@@ -65,7 +65,7 @@ export class HelperService {
             password: dbPassword,
             database: dbName,
             entities: [],
-            synchronize: false,
+            synchronize: true,
             timezone: 'Z',
             namingStrategy: new SnakeNamingStrategy(),
             extra: {
