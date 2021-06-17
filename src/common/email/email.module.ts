@@ -27,7 +27,7 @@ import { EmailReportCronService } from './services/emailReportCron.service';
             },
           },
           defaults: {
-            from: '"Digitop" <postmaster@mg.digitop.vn>', // outgoing email ID
+            from: 'conanstark2468@gmail.com', // outgoing email ID
           },
           template: {
             dir: process.cwd() + '/src/core/templates/',
